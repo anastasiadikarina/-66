@@ -4,6 +4,21 @@
 
 
 //11.1
+void main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+    printf("Введите символ = ");
+    int ch = getchar();
+
+    for (int c = ch; c <= ch + 19; c++) {
+        printf("%c (%d) \n", c, c);
+    }
+    printf("\n\n\n");
+
+    int x;
+    scanf_s("%d", &x);
+}
 
 
 //11.2
@@ -174,6 +189,7 @@ void main() {
 
     printf("После: %s", s);
 }
+printf("Hello World")
 
 
 
